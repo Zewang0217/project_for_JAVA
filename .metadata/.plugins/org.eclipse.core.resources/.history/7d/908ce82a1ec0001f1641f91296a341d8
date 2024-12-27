@@ -1,0 +1,11 @@
+package com;
+
+public class lec3 {
+	public static void main(String[] args) {
+		int[] values = new int[7];
+		int size = values.length;
+		System.out.println(values);
+		System.out.println(size);
+	}
+	
+}

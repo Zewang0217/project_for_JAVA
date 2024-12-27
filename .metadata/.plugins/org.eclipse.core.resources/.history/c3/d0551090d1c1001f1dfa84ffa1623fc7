@@ -1,0 +1,48 @@
+package com.heima.test;
+
+public class GirlFriend {
+	private int age;
+	private String name;
+	private String gender;
+	
+	//针对每一个私有的成员变量，都要提供set 和 get方法
+    //set 用于给成员变量进行赋值
+	//get 用于对外提供变量的量
+	//age:
+	public void setAge(int a) {
+		if (a >= 18 && a <= 50) {
+			age = a;
+		} else {
+			System.out.println("非法数据");
+		}
+	}
+
+	public int getAge() {
+		return age;
+	}
+	
+	//name:
+	public void setName(String n) {
+		name = n;
+	}
+	public String getName() {
+		return name;
+	}
+	
+	//gender:
+	public void setGender(String g) {
+		//string判断留待以后
+		gender = g;
+	}
+	public String getGender() {
+		return gender;
+	}
+	
+	public void sleep() {
+		System.out.println("在睡觉");
+	}
+	public void eat() {
+		System.out.println("在吃饭");
+	}
+
+}

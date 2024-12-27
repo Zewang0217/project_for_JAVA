@@ -1,0 +1,31 @@
+package com;
+
+public class lec4 {
+	public class Baby{
+		String name;
+		boolean isMale;
+		double weight;
+		double decibles;
+		int numPoops;
+		
+		
+		void poop() {
+			numPoops += 1;
+			System.out.println("Dear mother, " + "I have pooped. Ready the diaper.");
+		}
+		void sayHi() {
+			System.out.println("Hi, my name is " + name);
+		}
+		void eat(double foodWeight) {
+			if(foodWeight >= 0 && foodWeight < weight) {
+				weight += foodWeight;
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		Baby shiloh = new Baby("shiloh Jolie-Pitt", true);
+		shiloh.sayHi();
+	}
+}
+

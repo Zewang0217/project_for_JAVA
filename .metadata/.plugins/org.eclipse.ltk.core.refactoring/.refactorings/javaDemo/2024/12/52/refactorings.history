@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.heima.test.GirlFriendForExercise&apos; to &apos;GirlFriend&apos;&#x0D;&#x0A;- Original project: &apos;javaDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.heima.test.GirlFriendForExercise&apos;&#x0D;&#x0A;- Renamed element: &apos;com.heima.test.GirlFriend&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GirlFriendForExercise&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.heima.test{GirlFriendForExercise.java[GirlFriendForExercise" matchStrategy="1" name="GirlFriend" qualified="false" references="true" similarDeclarations="false" stamp="1734948278886" textual="false" version="1.0"/>
+</session>

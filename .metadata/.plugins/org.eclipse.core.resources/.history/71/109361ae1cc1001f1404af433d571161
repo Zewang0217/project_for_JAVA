@@ -1,0 +1,33 @@
+package com.heima.test;
+
+public class GirlFriendTest {
+    public static void main(String[] args) {
+		//创建女朋友的对象
+    	GirlFriend gf1 = new GirlFriend();
+    	gf1.name = "小小";
+    	gf1.gender = "w";
+    	gf1.age = 21;
+    	
+    	System.out.println(gf1.name);
+    	System.out.println(gf1.age);
+    	System.out.println(gf1.gender);
+    	
+    	gf1.sleep();
+    	gf1.eat();
+    	System.out.println("========================");
+    	
+    	GirlFriend gf2 = new GirlFriend();
+    	gf2.name = "ChuQingHan";
+    	gf2.gender = "w";
+    	gf2.age = 23;
+    	
+    	System.out.println(gf2.name);
+    	System.out.println(gf2.age);
+    	System.out.println(gf2.gender);
+    	gf2.eat();
+    	gf2.sleep();
+    }
+	
+	
+			
+}

@@ -1,0 +1,11 @@
+package com;
+
+public class Car {
+	String make;
+	String model;
+	int year;
+	
+	public Car(String make,String model, int year) {
+		
+	}
+}

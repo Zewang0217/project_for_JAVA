@@ -1,0 +1,8 @@
+package com;
+
+public class scondProject {
+	public static void main(String[] args) {
+		String text = "hello" + "world";
+		text = text + "number";
+		
+}

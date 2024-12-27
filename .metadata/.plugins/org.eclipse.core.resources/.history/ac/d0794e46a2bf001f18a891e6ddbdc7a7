@@ -1,0 +1,12 @@
+package com;
+
+public class lecture2 {
+    public static void printSquare(double x) {
+    	System.out.println(x * x);
+    }
+    public static void main(String[] args) {
+		printSquare(2);
+		
+	}
+    
+}

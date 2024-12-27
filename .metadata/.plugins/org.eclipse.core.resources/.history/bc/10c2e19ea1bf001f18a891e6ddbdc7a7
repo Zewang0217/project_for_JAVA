@@ -1,0 +1,9 @@
+package com;
+
+public class lecture2 {
+    public static void main(String[] args) {
+    	String a = "this " + "is " +"a " + "string " + "type.";
+    	System.out.println(a);
+	}
+    
+}

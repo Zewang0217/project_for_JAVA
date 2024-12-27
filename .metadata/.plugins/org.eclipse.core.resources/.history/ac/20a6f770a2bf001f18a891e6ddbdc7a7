@@ -1,0 +1,12 @@
+package com;
+
+public class lecture2 {
+    public static void times(double x,double y) {
+    	System.out.println(x * y);
+    }
+    public static void main(String[] args) {
+		times(2.00, 3.00);
+		
+	}
+    
+}

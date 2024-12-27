@@ -1,0 +1,6 @@
+package com;
+
+public class Assignment2 {
+	int x = Math.pow(2, 3);
+	
+}

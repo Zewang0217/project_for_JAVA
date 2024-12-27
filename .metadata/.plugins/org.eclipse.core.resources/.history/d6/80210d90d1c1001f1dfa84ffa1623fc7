@@ -1,0 +1,15 @@
+package com.heima.test;
+
+public class Student {
+	//属性
+	String name;
+	double height;
+	
+	//行为
+	public void study() {
+		
+	}
+}
+//一个Java文件中可以定义多个class，且只能一个类是public修饰，而且public修饰的类名必须成为代码文件名
+//实际开发中建议还是一个文件定义一个class类
+//定义成员变量： 修饰符（暂时空） 数据类型 变量名称 = 初始化值（一般无需指定初始化值，存在默认值，默认值为0，0.0，false，null）

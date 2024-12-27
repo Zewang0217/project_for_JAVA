@@ -1,0 +1,8 @@
+package com;
+
+public class scondProject {
+	public static void main(String[] args) {
+		System.out.println("Hello world!");
+		System.out.println("Line Number 2");//again
+	}
+}

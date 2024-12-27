@@ -1,0 +1,9 @@
+package com;
+
+public class scondProject {
+	public static void main(String[] args) {
+		double score = 1.0 + 2.0 * 3.0;
+		String text = "hello" + "world";
+		text = text + "number" + 5;
+		System.out.println(score);
+}

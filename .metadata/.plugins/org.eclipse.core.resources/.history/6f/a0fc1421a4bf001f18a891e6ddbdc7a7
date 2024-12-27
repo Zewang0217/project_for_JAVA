@@ -1,0 +1,6 @@
+package com;
+
+public class Mathmatical {
+	int x = Math.pow(2, 3);
+	
+}
